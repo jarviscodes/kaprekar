@@ -3,6 +3,7 @@
 ## Harshad numbers
 
 The constant 6174 is a very interesting number in the 4-digit world.
+
 First off, it's a Harshad-number, which means that it's divisible by the sum of it's digits:
 
 e.g.: 6174 / (6+1+7+4) = 343
@@ -10,9 +11,11 @@ e.g.: 6174 / (6+1+7+4) = 343
 ## Kaprekar's procedure
 
 Kaprekar discovered a procedure for 4 digit numbers that always ended up at 6174 in at most 7 iterations.
+
 The only constraint is that it's only applicable to:
 
 a. 4 digit numbers
+
 b. Which have at least 2 different digits in them.
 
 This means that the procedure works for 0001, but not for 1111.
@@ -42,7 +45,9 @@ So it took us 7 iterations to get from 0001 to 6174.
 ## I can haz codes?
 
 The code below uses a recursive python function that verifies Kaprekar's procedure for all digits 0001-9998.
+
 It subsequently renders a bar chart that plots every tested value and the number of iterations required.
+
 This also proves rather quickly that we never need more than 7 iterations to arrive at the constant for each of the tested numbers.
 
 ![graph](graph.png)

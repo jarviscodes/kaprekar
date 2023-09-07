@@ -45,7 +45,7 @@ The code below uses a recursive python function that verifies Kaprekar's procedu
 It subsequently renders a bar chart that plots every tested value and the number of iterations required.
 This also proves rather quickly that we never need more than 7 iterations to arrive at the constant for each of the tested numbers.
 
-![graph](images/graph.png)
+![graph](graph.png)
 
 Pretty cool stuff!
 
